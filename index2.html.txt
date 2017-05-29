@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Company</title>
+<meta charset="utf-8">
+</head>
+<body>
+<h1>Pacific Trails Resort</h1>
+<div><strong>Home Yurts Activities Reservations</strong></div>
+<h2>Enjoy Nature in Luxury</h2>
+<p>Pacific Trails Resort offers a special lodging experience on the California North Coast.</br>Relax in serenity with panoramic views of the Pacific Ocean.</p>
+<ul>
+<li>Private yurts with decks overlooking the ocean</li>
+<li>Activity lodge with fireplace and gift shop</li>
+<li>Nightly fine dining at the Overlook Cafe</li>
+<li>Heated outdoor pool and whirlpool</li>
+<li>Guided hiking tours of the redwoods</li>
+</ul>
+<div>
+Pacific trails Resort</br>
+12010 Pacific Trails Road</br>
+Zephyr,CA 95555</br></br>
+888-555-5555
+</div></br>
+<div><small><i>Copyright &copy;2011 Pacific Trails Resort</i></small></br>
+Wen Qiang@Xu.com</div>
+</body>
+</html>
