@@ -1,0 +1,39 @@
+#include<iostream>
+using namespace std;
+void main()
+{
+	int c,d,e;
+	while(scanf("%d/%d/%d",&c,&d,&e)!=EOF)
+	{
+		int a[11]={31,28,31,30,31,30,31,31,30,31,30},f=0,i;
+		for(i=0;i<(d-1);i++)
+		{
+			f+=a[i];
+		}
+		f+=e;
+		if(((c%4==0) && (c%100!=0)) || (c%400==0))
+			if(d>2)
+				f+=1;
+		cout<<f<<endl;
+	}
+}
+
+
+
+#include<stdio.h>
+int main(){
+    int a,b,c;
+     while(~scanf("%d/%d/%d",&a,&b,&c))
+     {
+    int i,n=0,m=0;
+     int d[12]={31,28,31,30,31,30,31,31,30,31,30,31};
+     for(i=0;i<(b-1);i++)
+     n=n+d[i];
+     if ((a%4==0&&a%100!=0)||a%400==0)m=1;
+        if(b>2&&m==1)
+        n=1+n+c;
+        else n=n+c;
+     printf("%d\n",n);
+    }
+} 
+
